@@ -1,5 +1,5 @@
 import React from "react";
-import Pricing from "../../components/PricingCards";
+// import Pricing from "../../components/PricingCards";
 import Navbar from "../../components/Navbar";
 import PromoBanner from "../../components/PromoBanner";
 import TimeStationCard from "../../components/TimeStationCard";
@@ -109,7 +109,7 @@ const Home = () => {
                     ))}
                 </div>
             </div>
-            <Pricing />
+            {/* <Pricing /> */}
             <Footer />
         </>
     )
