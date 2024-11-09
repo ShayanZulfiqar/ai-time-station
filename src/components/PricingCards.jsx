@@ -29,9 +29,8 @@ const PricingCards = ({ title, price, features }) => {
                     </div>
                 ))}
             </div>
-            <button className="bg-indigo-600 hover:bg-indigo-700 px-4 py-2 rounded-lg w-full font-semibold text-white transition duration-300">
-                Get Started
-            </button>
+            <Button text="Get Started" link="/Login" width="100%" />
+
         </div>
     );
 };
