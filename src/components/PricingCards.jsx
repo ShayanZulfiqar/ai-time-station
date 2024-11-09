@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from './Button';
 
 const PricingCards = ({ title, price, features }) => {
     return (
