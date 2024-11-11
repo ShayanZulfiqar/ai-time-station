@@ -81,13 +81,13 @@ const Navbar = () => {
                         Signup
                     </a>
                     <a
-                        href="/download"
+                        href="/Download"
                         className="hover:bg-blue-700 p-2 rounded-md font-semibold hover:text-white transform transition hover:scale-105"
                     >
                         Download
                     </a>
                     <a
-                        href="/support"
+                        href="/Support"
                         className="hover:bg-blue-700 p-2 rounded-md font-semibold hover:text-white transform transition hover:scale-105"
                     >
                         Support

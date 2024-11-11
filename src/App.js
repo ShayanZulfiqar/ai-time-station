@@ -6,6 +6,10 @@ import '../src/assets/style/tailwind.css'
 import Login from "./pages/Login";
 import HowItWork from "./pages/HowItWork";
 import Pricing from "./pages/Pricing";
+import Download from "./pages/Download";
+import Support from "./pages/Support";
+import ContactPage from "./pages/ContactPage";
+import Privacy from "./pages/Privacy";
 
 
 const App = () => {
@@ -18,6 +22,10 @@ const App = () => {
         <Route path="/Login" element={<Login/>}/>
         <Route path="/HowItWork" element={<HowItWork/>}/>
         <Route path="/Pricing" element={<Pricing/>}/>
+        <Route path="/Download" element={<Download/>}/>
+        <Route path="/Support" element={<Support/>}/>
+        <Route path="/ContactPage" element={<ContactPage/>}/>
+        <Route path="/Privacy" element={<Privacy/>}/>
       </Routes>
     </Router>
     

@@ -10,7 +10,7 @@ const Pricing = () => {
             <Navbar />
             <Pricingcard />
             <div className="container d-grid place-items-center my-10 md:px-24 px-10">
-                <Button text="Sign up for free" link="/SignUp"  />
+                <Button text="Sign up for free" link="/SignUp" />
             </div>
             <Footer />
 

@@ -5,7 +5,7 @@ const FeatureCard = ({ icon, title, subtitle }) => {
         <div className="bg-white shadow-lg rounded-lg p-6 max-w-sm mx-auto transform transition-transform hover:scale-105">
             {/* Icon */}
             <div className="flex justify-center items-center mb-4">
-                <div className="text-blue-600 text-4xl">{icon}</div>
+                <div className="text-blue-600  text-5xl">{icon}</div>
             </div>
 
             {/* Title */}
