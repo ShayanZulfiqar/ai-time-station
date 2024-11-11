@@ -20,10 +20,10 @@
 }
 
 .promo-banner .content {
-    margin-left: 2rem; /* For mobile: 8px */
+    margin-left: 2rem; 
     padding: 2rem;
-    max-width: 28rem; /* For large screens: 20rem */
-    color: white;
+    max-width: 28rem; 
+   
 }
 
 .promo-banner h2 {
