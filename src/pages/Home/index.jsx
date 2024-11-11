@@ -84,7 +84,7 @@ const Home = () => {
             <Navbar />
             <PromoBanner />
             <div className="container mx-auto">
-                <div className="grid grid-cols-1 px-24  md:grid-cols-2 gap-6 p-4">
+                <div className="grid grid-cols-1 md:px-24 px-10  md:grid-cols-2 gap-6 p-4">
                     <TimeStationCard
                         title="TimeStation Features"
                         description="A comprehensive system for tracking time and attendance."
@@ -97,8 +97,8 @@ const Home = () => {
                     />
                 </div>
             </div>
-            <div className="container mx-auto">
-                <div className="grid grid-cols-1 px-24 md:grid-cols-2 lg:grid-cols-3 gap-3 p-4">
+            <div className="container mx-auto my-10">
+                <div className="grid cursor-pointer grid-cols-1 md:px-24 px-10 md:grid-cols-2 lg:grid-cols-3 gap-3 p-4">
                     {features.map((feature, index) => (
                         <FeatureCard
                             key={index}

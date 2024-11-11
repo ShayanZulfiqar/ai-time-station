@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Button from './Button';
+import logo from '../assets/images/logo.png'
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -26,7 +27,7 @@ const Navbar = () => {
         <nav className="bg-gray-100 dark:bg-gray-900 p-4">
             <div className="flex justify-between items-center mx-auto container">
                 <div className="font-bold text-blue-900 dark:text-white text-lg">
-                    <a href="/">AI Time Station</a>
+                <a href="/"><img src={logo} width={'130px'} alt="" /></a>
                 </div>
 
                 {/* Hamburger Icon for mobile view */}

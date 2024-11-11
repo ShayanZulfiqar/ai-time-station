@@ -57,7 +57,7 @@ export default function Pricingcard() {
 
     return (
         <div className="container mx-auto">
-            <div className="grid px-24 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid  md:px-24 px-10 md:gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2">
             {plans.map((plan, index) => (
                 <PricingCards key={index} title={plan.title} price={plan.price} features={plan.features} />
             ))}
