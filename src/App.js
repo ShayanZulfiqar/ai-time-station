@@ -10,6 +10,7 @@ import Download from "./pages/Download";
 import Support from "./pages/Support";
 import ContactPage from "./pages/ContactPage";
 import Privacy from "./pages/Privacy";
+import TermServices from "./pages/TermServices";
 
 
 const App = () => {
@@ -26,6 +27,7 @@ const App = () => {
         <Route path="/Support" element={<Support/>}/>
         <Route path="/ContactPage" element={<ContactPage/>}/>
         <Route path="/Privacy" element={<Privacy/>}/>
+        <Route path="/TermServices" element={<TermServices/>}/>
       </Routes>
     </Router>
     

@@ -8,7 +8,7 @@ const Navbar = () => {
     const toggleMenu = () => setIsOpen(!isOpen);
 
     return (
-        <nav className="bg-light p-4">
+        <nav className="bg-light shadow-md p-4">
             {/* Large Screen Navbar */}
             <div className="hidden lg:flex container mx-auto justify-between items-center">
                 {/* Logo */}
