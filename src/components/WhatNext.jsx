@@ -9,7 +9,7 @@ import videoimg from '../assets/images/HowItWorks_Video_Thumbnail.jpg'
 
 const WhatNext = () => {
     return (
-        <div className="px-24 my-16">
+        <div className="md:px-24 px-10 my-16">
             <h2 className="text-2xl font-bold text-blue-500 mb-6">What Next?</h2>
 
             {/* Employee and Manager Section */}
