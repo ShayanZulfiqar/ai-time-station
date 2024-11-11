@@ -1,0 +1,38 @@
+.promo-banner {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-image: url('../assets/images/AI time space 3.jpg'); /* Ensure the path is correct */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll; /* Optional, use fixed if you need a parallax effect */
+    background-color: transparent; /* Optional fallback color */
+}
+
+.promo-banner .overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4); /* Dark overlay */
+}
+
+.promo-banner .content {
+    margin-left: 2rem; /* For mobile: 8px */
+    padding: 2rem;
+    max-width: 28rem; /* For large screens: 20rem */
+    color: white;
+}
+
+.promo-banner h2 {
+    font-weight: bold;
+    font-size: 1.5rem; /* For small screens */
+    font-size: 2.25rem; /* For large screens */
+}
+
+.promo-banner .button-container {
+    margin-top: 1.5rem;
+    width: 50%;
+}
