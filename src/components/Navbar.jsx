@@ -20,37 +20,37 @@ const Navbar = () => {
                 <div className="flex items-center space-x-4">
                     <a
                         href="/"
-                        className="hover:bg-blue-700 p-2 rounded-md text-white font-semibold hover:text-white transition duration-300"
+                        className="hover:bg-blue-700 p-2 rounded-md text-wh font-semibold hover:text-white transition duration-300"
                     >
                         Home
                     </a>
                     <a
                         href="/HowItWork"
-                        className="hover:bg-blue-700 p-2 rounded-md text-white font-semibold hover:text-white transition duration-300"
+                        className="hover:bg-blue-700 p-2 rounded-md text-wh font-semibold hover:text-white transition duration-300"
                     >
                         How it Works
                     </a>
                     <a
                         href="/Pricing"
-                        className="hover:bg-blue-700 p-2 rounded-md text-white font-semibold hover:text-white transition duration-300"
+                        className="hover:bg-blue-700 p-2 rounded-md text-wh font-semibold hover:text-white transition duration-300"
                     >
                         Pricing
                     </a>
                     <a
                         href="/signup"
-                        className="hover:bg-blue-700 p-2 rounded-md text-white font-semibold hover:text-white transition duration-300"
+                        className="hover:bg-blue-700 p-2 rounded-md text-wh font-semibold hover:text-white transition duration-300"
                     >
                         Signup
                     </a>
                     <a
                         href="/Download"
-                        className="hover:bg-blue-700 p-2 rounded-md text-white font-semibold hover:text-white transition duration-300"
+                        className="hover:bg-blue-700 p-2 rounded-md text-wh font-semibold hover:text-white transition duration-300"
                     >
                         Download
                     </a>
                     <a
                         href="/Support"
-                        className="hover:bg-blue-700 p-2 rounded-md text-white font-semibold hover:text-white transition duration-300"
+                        className="hover:bg-blue-700 p-2 rounded-md text-wh font-semibold hover:text-white transition duration-300"
                     >
                         Support
                     </a>
@@ -69,7 +69,7 @@ const Navbar = () => {
 
                 {/* Hamburger Button */}
                 <button
-                    className="text-gray-800"
+                    className="text-white"
                     onClick={toggleMenu}
                 >
                     <svg
