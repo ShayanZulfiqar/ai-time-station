@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logo from '../assets/images/logo.png';
+import logo from '../assets/images/logo-doubly.png';
 import Button from './Button';
 
 const Navbar = () => {
@@ -20,37 +20,37 @@ const Navbar = () => {
                 <div className="flex items-center space-x-4">
                     <a
                         href="/"
-                        className="hover:bg-blue-700 p-2 rounded-md text-wh font-semibold hover:text-white transition duration-300"
+                        className="hover:bg-blue-700 p-2 rounded-md text-white text-wh font-semibold hover:text-white transition duration-300"
                     >
                         Home
                     </a>
                     <a
                         href="/HowItWork"
-                        className="hover:bg-blue-700 p-2 rounded-md text-wh font-semibold hover:text-white transition duration-300"
+                        className="hover:bg-blue-700 p-2 rounded-md text-white text-wh font-semibold hover:text-white transition duration-300"
                     >
                         How it Works
                     </a>
                     <a
                         href="/Pricing"
-                        className="hover:bg-blue-700 p-2 rounded-md text-wh font-semibold hover:text-white transition duration-300"
+                        className="hover:bg-blue-700 p-2 rounded-md text-white text-wh font-semibold hover:text-white transition duration-300"
                     >
                         Pricing
                     </a>
                     <a
                         href="/signup"
-                        className="hover:bg-blue-700 p-2 rounded-md text-wh font-semibold hover:text-white transition duration-300"
+                        className="hover:bg-blue-700 p-2 rounded-md text-white text-wh font-semibold hover:text-white transition duration-300"
                     >
                         Signup
                     </a>
                     <a
                         href="/Download"
-                        className="hover:bg-blue-700 p-2 rounded-md text-wh font-semibold hover:text-white transition duration-300"
+                        className="hover:bg-blue-700 p-2 rounded-md text-white text-wh font-semibold hover:text-white transition duration-300"
                     >
                         Download
                     </a>
                     <a
                         href="/Support"
-                        className="hover:bg-blue-700 p-2 rounded-md text-wh font-semibold hover:text-white transition duration-300"
+                        className="hover:bg-blue-700 p-2 rounded-md text-white text-wh font-semibold hover:text-white transition duration-300"
                     >
                         Support
                     </a>
@@ -94,37 +94,37 @@ const Navbar = () => {
                 <div className="lg:hidden mt-10 z-50 flex flex-col items-center space-y-4 absolute top-16 left-0 w-full bg-white shadow-lg py-4">
                     <a
                         href="/"
-                        className="hover:bg-blue-700 p-2 rounded-md font-semibold hover:text-white transition duration-300"
+                        className="hover:bg-blue-700 p-2 rounded-md text-white font-semibold hover:text-white transition duration-300"
                     >
                         Home
                     </a>
                     <a
                         href="/HowItWork"
-                        className="hover:bg-blue-700 p-2 rounded-md font-semibold hover:text-white transition duration-300"
+                        className="hover:bg-blue-700 p-2 rounded-md text-white font-semibold hover:text-white transition duration-300"
                     >
                         How it Works
                     </a>
                     <a
                         href="/Pricing"
-                        className="hover:bg-blue-700 p-2 rounded-md font-semibold hover:text-white transition duration-300"
+                        className="hover:bg-blue-700 p-2 rounded-md text-white font-semibold hover:text-white transition duration-300"
                     >
                         Pricing
                     </a>
                     <a
                         href="/signup"
-                        className="hover:bg-blue-700 p-2 rounded-md font-semibold hover:text-white transition duration-300"
+                        className="hover:bg-blue-700 p-2 rounded-md text-white font-semibold hover:text-white transition duration-300"
                     >
                         Signup
                     </a>
                     <a
                         href="/Download"
-                        className="hover:bg-blue-700 p-2 rounded-md font-semibold hover:text-white transition duration-300"
+                        className="hover:bg-blue-700 p-2 rounded-md text-white font-semibold hover:text-white transition duration-300"
                     >
                         Download
                     </a>
                     <a
                         href="/Support"
-                        className="hover:bg-blue-700 p-2 rounded-md font-semibold hover:text-white transition duration-300"
+                        className="hover:bg-blue-700 p-2 rounded-md text-white font-semibold hover:text-white transition duration-300"
                     >
                         Support
                     </a>
