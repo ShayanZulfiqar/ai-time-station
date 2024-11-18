@@ -13,7 +13,7 @@ const PromoBanner = () => {
                         Turn any smartphone or tablet into a cloud-based time & attendance
                         system
                     </h2>
-                    <Button text="Sign Up for Free" link="/Signup" width="50%" />
+                    <Button text="Sign Up for Free" link="https://ai-time-station-admin.vercel.app/" width="50%" />
                 </div>
             </div>
         </div>
